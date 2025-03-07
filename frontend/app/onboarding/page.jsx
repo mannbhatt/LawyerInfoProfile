@@ -6,8 +6,8 @@ import ExperienceForm from "../components/onboarding/experienceForm";
 import AboutForm from "../components/onboarding/aboutForm";
 import AchievementForm from "../components/onboarding/achievementForm";
 import ContributionForm from "../components/onboarding/contributionForm";
-import SkillsForm from "./skillsForm";
-import SocialLinksForm from "./socialLinksForm"; 
+import SkillsForm from "../components/onboarding/skillsForm";
+import SocialLinksForm from "../components/onboarding/socialLinksForm"; 
 import { jwtDecode } from "jwt-decode";
 
 export default function Details() {
